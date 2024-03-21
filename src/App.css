@@ -1,0 +1,14 @@
+:root {
+  --dark-accent-clr: #ff7d1a;
+  --light-accent-clr: 	#ffede0;
+  --darkest-neutral-clr: #1d2025;
+  --main-text-clr: 	#68707d;
+  --mid-neutral-clr: #b6bcc8;
+  --counter-bg-clr: 	#f7f8fd;
+  --white-clr: #FFF;
+  --lightbox-bg: rgba(0, 0, 0, 75%);
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
