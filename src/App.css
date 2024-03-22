@@ -9,6 +9,87 @@
   --lightbox-bg: rgba(0, 0, 0, 75%);
 }
 
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: "Kumbh Sans", sans-serif;
+  width: 100%;
+  margin: 0;
+  color: var(--main-text-clr);
+}
+
+#root {
+  width: 100%;
+}
+
+/*Styling Classes*/
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accent-bg {
+  background-color: var(--dark-accent-clr);
+  color: var(--white-clr);
+}
+
+.container {
+  width: 85%;
+}
+
+/*Header Styling - Mobile*/
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 0;
+}
+
+.header-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-pic {
+  width: 1.5rem;
+}
+
+.cart-button {
+  position: relative;
+  background-color: #FFF;
+  border: none;
+}
+
+.cart-count {
+  padding: 1px 8px;
+  border-radius: 1rem;
+  font-size: .75rem;
+  position: absolute;
+  top: -8px;
+  right: -5px;
 }
