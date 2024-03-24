@@ -76,13 +76,22 @@ header {
 }
 
 .profile-pic {
-  width: 1.5rem;
+  width: 2rem;
+  border: 2px solid var(--white-clr);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.profile-pic:focus,
+.profile-pic:hover {
+  border-color: var(--dark-accent-clr);
 }
 
 .cart-button {
   position: relative;
   background-color: #FFF;
   border: none;
+  cursor: pointer
 }
 
 .cart-count {
@@ -92,4 +101,17 @@ header {
   position: absolute;
   top: -8px;
   right: -5px;
+}
+
+/*======MEDIA QUERIES ==================*/
+
+@media (min-width: 43rem) {
+  .profile-pic {
+    width: 2.5rem;
+  }
+
+  .header-right {
+    gap: 2.5rem;
+  }
+
 }

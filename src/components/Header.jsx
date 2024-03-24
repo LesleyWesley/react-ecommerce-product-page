@@ -1,11 +1,12 @@
 import React from "react"
+import NavBar from "../components/NavBar.jsx"
 
 function Header() {
   return (
     <header>
       <div className="container space-between">
         <div className="header-left">
-            <img src="icon-menu.svg" alt="menu" />
+            <NavBar />
             <img src="logo.svg" alt="sneakers logo" />
         </div>
 
