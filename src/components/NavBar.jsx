@@ -2,7 +2,12 @@ import React from "react"
 
 function NavBar () {
   return (
-    <img src="icon-menu.svg" alt="menu" />
+    <nav role="navigation">
+      //mobile toggle
+
+      //actual navigation links
+      
+    </nav>
   )
 }
 
