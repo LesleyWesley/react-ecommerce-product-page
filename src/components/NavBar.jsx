@@ -3,9 +3,9 @@ import React from "react"
 function NavBar () {
   return (
     <nav role="navigation">
-      //mobile toggle
+      {/*mobile toggle*/}
 
-      //actual navigation links
+      {/*actual navigation links*/}
       <div className="mobile-menu-bg">
           <div className="menu-container">
               <ul>
