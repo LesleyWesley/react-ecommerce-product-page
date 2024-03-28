@@ -5,10 +5,12 @@ function NavBar () {
     <nav role="navigation">
       {/*mobile toggle*/}
 
+      <button className="menu-button"><img src="icon-menu.svg" alt="menu button" /></button>
+
       {/*actual navigation links*/}
       <div className="mobile-menu-bg">
           <div className="menu-container">
-              <ul>
+              <ul className="nav-list">
                   <li><a href="#">Collections</a></li>
                   <li><a href="#">Men</a></li>
                   <li><a href="#">Women</a></li>

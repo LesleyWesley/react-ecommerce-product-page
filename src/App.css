@@ -28,6 +28,11 @@ body {
   width: 100%;
 }
 
+button {
+  border: none;
+  background-color: #FFF;
+}
+
 /*Styling Classes*/
 
 .center {
@@ -73,6 +78,22 @@ header {
   justify-content: flex-end;
   align-items: center;
   gap: 1rem;
+}
+
+.menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  display: none;
 }
 
 .profile-pic {
