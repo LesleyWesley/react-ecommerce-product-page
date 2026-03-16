@@ -22,117 +22,58 @@ body {
   width: 100%;
   margin: 0;
   color: var(--main-text-clr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #root {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
   border: none;
-  background-color: #FFF;
-}
-
-/*Styling Classes*/
-
-.center {
+  background: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.space-between {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.accent-bg {
-  background-color: var(--dark-accent-clr);
-  color: var(--white-clr);
+a {
+  text-decoration: none;
+  color: var(--darkest-neutral-clr);
+  font-weight: bold;
 }
 
-.container {
-  width: 85%;
-}
 
-.hide {
-  display: none;
-}
-
-/*Header Styling - Mobile*/
+/*Header  - Mobile Styling*/
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  position: relative;
   width: 100%;
-  padding: 1.5rem 0;
+  padding: 1.5rem;
 }
 
-.header-left {
+.header--left {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
 }
 
-.header-right {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 1rem;
-}
-
-.menu-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .profile-pic {
-  width: 2rem;
-  border: 2px solid var(--white-clr);
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.profile-pic:focus,
-.profile-pic:hover {
-  border-color: var(--dark-accent-clr);
-}
-
-.cart-button {
-  position: relative;
-  background-color: #FFF;
-  border: none;
-  cursor: pointer
-}
-
-.cart-count {
-  padding: 1px 8px;
-  border-radius: 1rem;
-  font-size: .75rem;
-  position: absolute;
-  top: -8px;
-  right: -5px;
-}
-
-/*======MEDIA QUERIES ==================*/
-
-@media (min-width: 43rem) {
-  .profile-pic {
-    width: 2.5rem;
-  }
-
-  .header-right {
-    gap: 2.5rem;
-  }
-
+  width: 20%;
 }
